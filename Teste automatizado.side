@@ -1,0 +1,122 @@
+{
+  "id": "54253c1a-4a53-4717-87dd-2cdc391866dd",
+  "version": "2.0",
+  "name": "Teste automatizado",
+  "url": "https://edu.ultima.school/pt/",
+  "tests": [{
+    "id": "39032bd1-80e7-40b6-bc8b-9e075b633c72",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "848783e7-72d2-41df-95d9-fbf87f5a3797",
+    "name": "Caso 01",
+    "commands": [{
+      "id": "317d590e-c38a-44a5-8f4c-f144e692f418",
+      "comment": "",
+      "command": "open",
+      "target": "https://edu.ultima.school/pt/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42d7f0e8-2e79-4649-8632-2cd413c96553",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ab7bc93-aaaf-49a4-a4b4-7ec7ec97c3fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Iniciar o curso",
+      "targets": [
+        ["linkText=Iniciar o curso", "linkText"],
+        ["css=#post-37811 .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Iniciar o curso')]", "xpath:link"],
+        ["xpath=//div[@id='post-37811']/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://edu.ultima.school/pt/courses/analista-de-testes-de-software-qa0422/')])[3]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Iniciar o curso')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c3c70ea-5fc2-460a-8b96-b4abc9b49054",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ld-expand-44975 .ld-icon-arrow-down",
+      "targets": [
+        ["css=#ld-expand-44975 .ld-icon-arrow-down", "css:finder"],
+        ["xpath=//div[@id='ld-expand-44975']/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cd18508-5bf4-4dff-b012-964791872c8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ld-table-list-item-44981 .ld-topic-title",
+      "targets": [
+        ["css=#ld-table-list-item-44981 .ld-topic-title", "css:finder"],
+        ["xpath=//div[@id='ld-table-list-item-44981']/a/span", "xpath:idRelative"],
+        ["xpath=//div[11]/div[2]/div/div[2]/div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Conceitos do Jira para relatar bugs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ed306de-4c02-4b57-9c38-28fd5c7a3e39",
+      "comment": "",
+      "command": "click",
+      "target": "name=question_610_939",
+      "targets": [
+        ["name=question_610_939", "name"],
+        ["css=.wpProQuiz_questionListItem:nth-child(1) .wpProQuiz_questionInput", "css:finder"],
+        ["xpath=//input[@name='question_610_939']", "xpath:attributes"],
+        ["xpath=//div[@id='wpProQuiz_610']/div[14]/ol/li/div[2]/ul/li/label/input", "xpath:idRelative"],
+        ["xpath=//li/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75b16527-200b-4ba7-9ce1-f1db4adfd307",
+      "comment": "",
+      "command": "click",
+      "target": "name=check",
+      "targets": [
+        ["name=check", "name"],
+        ["css=.wpProQuiz_button:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='check']", "xpath:attributes"],
+        ["xpath=//div[@id='wpProQuiz_610']/div[14]/ol/li/input[2]", "xpath:idRelative"],
+        ["xpath=//li/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2838026-e4b4-4d99-a879-a36b2e91d2bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.butons2",
+      "targets": [
+        ["css=.butons2", "css:finder"],
+        ["xpath=//div[@id='ld-tab-content-44981']/div[2]/p/a[2]/button", "xpath:idRelative"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Próximo >')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "536401c4-9d87-457b-91ab-1a7cb02d56c5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "abc0521b-7453-41f2-8c7d-de5648906c4d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["39032bd1-80e7-40b6-bc8b-9e075b633c72"]
+  }],
+  "urls": [],
+  "plugins": []
+}
